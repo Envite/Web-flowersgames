@@ -43,14 +43,20 @@
 .maceta {
 	width: 250px;
 	height: 350px;
-	background: aqua;
+	border: dotted 1px blue;
 }
-.test {
-	width: 400px;
-	height:400px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
+#maceta1 {
+	border-color: black;
+}
+#maceta2 {
+	border-color: red;
+}
+.balloon {
+	position: relative;
+	top: -10px;
+	left: -5px;
+	width: 260px;
+	height:140px;
 	background: pink;
 	display:none;
 }
